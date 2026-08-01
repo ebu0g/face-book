@@ -409,7 +409,7 @@ class _PostCard extends StatelessWidget {
   }) {
     return TextButton.icon(
       onPressed: onTap,
-      icon: Icon(icon, size: 18),
+      icon: Icon(icon, size: 20),
       label: Text(label),
       style: TextButton.styleFrom(
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),

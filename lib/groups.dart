@@ -198,7 +198,7 @@ class _GroupCard extends StatelessWidget {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8),
                           ),
-                          minimumSize: const Size.fromHeight(40),
+                          minimumSize: const Size.fromHeight(45),
                           padding: const EdgeInsets.symmetric(horizontal: 12),
                         ),
                         onPressed: () {},

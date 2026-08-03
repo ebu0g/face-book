@@ -18,12 +18,12 @@ class GroupsPage extends StatelessWidget {
       ),
       body: SafeArea(
         child: ListView(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(15),
           children: [
             _searchField(),
             const SizedBox(height: 12),
             _chipRow(),
-            const SizedBox(height: 16),
+            const SizedBox(height: 15),
             const Text(
               'Suggested for you',
               style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
